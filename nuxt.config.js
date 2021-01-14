@@ -43,6 +43,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    'nuxt-webfontloader',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -51,6 +52,7 @@ export default {
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    defaultAssets: false,
     theme: {
       dark: true,
       themes: {
@@ -68,7 +70,9 @@ export default {
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    extractCSS: true,
+  },
 
   router: {
     // eslint-disable-next-line object-shorthand
@@ -107,7 +111,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Roboto:100,300,400,500,700,900'],
+      families: ['Roboto:100,300,400,500,700,900&display=swap'],
     },
   },
 }
