@@ -20,6 +20,7 @@
       </v-row>
       <v-row justify="center">
         <v-img
+          alt="Webpage Not Found!"
           src="https://icon-library.com/images/not-found-icon/not-found-icon-24.jpg"
           max-height="300"
           max-width="300"

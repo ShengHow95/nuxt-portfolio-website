@@ -32,7 +32,7 @@
         </div>
         <div class="text-center my-5">
           <v-avatar size="200">
-            <img src="/profile.jpeg" />
+            <img alt="Profile Picture" src="/profile.jpeg" />
           </v-avatar>
         </div>
         <div class="my-5">
@@ -119,6 +119,7 @@
             >
               <div>
                 <v-img
+                  :alt="'interest-' + interest.name"
                   :src="interest.photo"
                   :height="$vuetify.breakpoint.xs ? 350 : '50vh'"
                   :width="$vuetify.breakpoint.xs ? 350 : '50vh'"
@@ -157,6 +158,7 @@
             class="mx-1"
             :href="media.link"
             target="_blank"
+            rel="noreferrer"
           >
             <v-icon large>{{ media.icon }}</v-icon>
           </v-btn>
@@ -173,6 +175,7 @@
             color="primary"
             href="https://resume.jeffkong95.com"
             target="_blank"
+            rel="noreferrer"
           >
             View My Resume
           </v-btn>
