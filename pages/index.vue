@@ -46,33 +46,33 @@
           </div>
           <div class="blue-grey lighten-4 py-3 px-3 rounded-b">
             <span
-              class="indigo--text text--darken-4"
+              class="indigo--text text--darken-3"
               style="font-family: consolas"
             >
               &#x3c;BasicInfo&#x3e;
             </span>
             <div v-for="(detail, i) in details" :key="i">
               <span
-                class="indigo--text text--darken-4"
+                class="indigo--text text--darken-3"
                 style="font-family: consolas"
               >
                 &nbsp;&nbsp;&#x3c;{{ detail.key }}&#x3e;
               </span>
               <span
-                class="deep-orange--text text--darken-4"
+                class="purple--text text--darken-4 font-weight-bold"
                 style="font-family: consolas"
               >
                 {{ detail.value }}
               </span>
               <span
-                class="indigo--text text--darken-4"
+                class="indigo--text text--darken-3"
                 style="font-family: consolas"
               >
                 &#x3c;/{{ detail.key }}&#x3e;
               </span>
             </div>
             <span
-              class="indigo--text text--darken-4"
+              class="indigo--text text--darken-3"
               style="font-family: consolas"
             >
               &#x3c;/BasicInfo&#x3e;
