@@ -32,7 +32,7 @@
         </div>
         <div class="text-center my-5">
           <v-avatar size="200">
-            <img alt="Profile Picture" src="/profile.jpeg" />
+            <img alt="Profile Picture" src="/profile.webp" />
           </v-avatar>
         </div>
         <div class="my-5">

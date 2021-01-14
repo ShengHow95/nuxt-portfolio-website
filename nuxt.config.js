@@ -99,4 +99,12 @@ export default {
       families: ['Roboto:100,300,400,500,700,900&display=swap'],
     },
   },
+
+  loadingIndicator: {
+    name: 'chasing-dots',
+    color: 'green',
+    background: 'white',
+  },
+
+  ssr: false,
 }
