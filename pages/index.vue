@@ -94,7 +94,12 @@
           <span style="font-family: 'Lucida Handwriting'"> INTERESTS </span>
         </div>
         <v-card class="my-5">
-          <v-tabs v-model="tab" centered icons-and-text>
+          <v-tabs
+            v-model="tab"
+            centered
+            icons-and-text
+            color="orange lighten-1"
+          >
             <v-tab href="#tab-0">
               Travel
               <v-icon>mdi-airplane</v-icon>
@@ -172,7 +177,7 @@
           <v-btn
             outlined
             large
-            color="primary"
+            color="indigo darken-4"
             href="https://resume.jeffkong95.com"
             target="_blank"
             rel="noreferrer"
