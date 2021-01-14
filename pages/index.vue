@@ -13,7 +13,7 @@
         </div>
         <div class="text-center my-15">
           <v-btn fab outlined @click="goTo('#intro')">
-            <v-icon size="32">mdi-chevron-down</v-icon>
+            <v-icon size="32">$vuetify.icons.mdiChevronDown</v-icon>
           </v-btn>
         </div>
       </v-sheet>
@@ -102,17 +102,17 @@
           >
             <v-tab href="#tab-0">
               Travel
-              <v-icon>mdi-airplane</v-icon>
+              <v-icon>$vuetify.icons.mdiAirplane</v-icon>
             </v-tab>
 
             <v-tab href="#tab-1">
               Board Game
-              <v-icon>mdi-gamepad-square</v-icon>
+              <v-icon>$vuetify.icons.mdiGamepadSquare</v-icon>
             </v-tab>
 
             <v-tab href="#tab-2">
               Coding
-              <v-icon>mdi-code-braces</v-icon>
+              <v-icon>$vuetify.icons.mdiCodeBraces</v-icon>
             </v-tab>
           </v-tabs>
 
@@ -208,7 +208,7 @@
         color="primary"
         @click="goTo('#home')"
       >
-        <v-icon size="32">mdi-chevron-up</v-icon>
+        <v-icon size="32">$vuetify.icons.mdiChevronUp</v-icon>
       </v-btn>
     </v-fab-transition>
   </div>
@@ -249,27 +249,27 @@ export default {
     medias: [
       {
         name: 'facebook',
-        icon: 'mdi-facebook',
+        icon: '$vuetify.icons.mdiFacebook',
         link: 'https://www.facebook.com/JeffKong95',
       },
       {
         name: 'instagram',
-        icon: 'mdi-instagram',
+        icon: '$vuetify.icons.mdiInstagram',
         link: 'https://www.instagram.com/jeff_how95/',
       },
       {
         name: 'whatsapp',
-        icon: 'mdi-whatsapp',
+        icon: '$vuetify.icons.mdiWhatsapp',
         link: 'https://wa.me/60107730589',
       },
       {
         name: 'linkedin',
-        icon: 'mdi-linkedin',
+        icon: '$vuetify.icons.mdiLinkedin',
         link: 'https://www.linkedin.com/in/sheng-how-kong/',
       },
       {
         name: 'gmail',
-        icon: 'mdi-gmail',
+        icon: '$vuetify.icons.mdiGmail',
         link: 'mailto:shenghow95.com',
       },
     ],
