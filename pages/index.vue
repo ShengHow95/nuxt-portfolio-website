@@ -224,8 +224,8 @@ export default {
     details: [
       { key: 'Name', value: 'Kong Sheng How' },
       { key: 'Nickname', value: 'Jeff' },
-      { key: 'Age', value: '25' },
-      { key: 'Role', value: 'Software Engineer' },
+      { key: 'Age', value: '26' },
+      { key: 'Role', value: 'Solutions Architect' },
       { key: 'Location', value: 'Singapore' },
     ],
     tab: null,
