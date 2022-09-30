@@ -11,11 +11,11 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
-    "@mdi/js": "^5.8.55",
-    "@nuxtjs/axios": "^5.12.2",
-    "@nuxtjs/pwa": "^3.0.2",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6",
+    "@mdi/js": "^7.0.96",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
     "nuxt-webfontloader": "^1.1.0"
   },
   "devDependencies": {

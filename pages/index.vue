@@ -224,8 +224,8 @@ export default {
     details: [
       { key: 'Name', value: 'Kong Sheng How' },
       { key: 'Nickname', value: 'Jeff' },
-      { key: 'Age', value: '26' },
-      { key: 'Role', value: 'Solutions Architect' },
+      { key: 'Age', value: 27 },
+      { key: 'Role', value: 'Backend Engineer' },
       { key: 'Location', value: 'Singapore' },
     ],
     tab: null,
@@ -258,11 +258,6 @@ export default {
         link: 'https://www.instagram.com/jeff_how95/',
       },
       {
-        name: 'whatsapp',
-        icon: '$vuetify.icons.mdiWhatsapp',
-        link: 'https://wa.me/60107730589',
-      },
-      {
         name: 'linkedin',
         icon: '$vuetify.icons.mdiLinkedin',
         link: 'https://www.linkedin.com/in/sheng-how-kong/',
@@ -282,6 +277,10 @@ export default {
     },
     goTo(id) {
       this.$vuetify.goTo(id)
+    },
+    getAge() {
+      const year = new Date().getFullYear()
+      return year - 1995
     },
   },
 }
