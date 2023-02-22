@@ -178,7 +178,7 @@
             outlined
             large
             color="indigo darken-4"
-            href="https://resume.jeffkong95.com"
+            href="https://resume.shenghow.link"
             target="_blank"
             rel="noreferrer"
           >
